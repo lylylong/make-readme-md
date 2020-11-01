@@ -3,12 +3,6 @@ const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// array of questions for user
-// const questions = [];
-
-// function to write README file
-// function writeToFile(fileName, data) {}
-
 const askQuestions = () => {
   return inquirer.prompt([
     {
@@ -65,7 +59,7 @@ const askQuestions = () => {
     {
       type: "input",
       name: "usage",
-      message: "how to use this project's repo?",
+      message: "How to use this project's repo?",
     },
     {
       type: "input",
@@ -85,11 +79,3 @@ askQuestions().then((response) => {
   });
   console.log("Readme created!");
 });
-
-// function to initialize program
-// function init() {}
-
-// function call to initialize program
-// init();
-
-// console.log("everthing is ok");
