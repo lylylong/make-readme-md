@@ -1,5 +1,6 @@
-const inquirer = require("inquirer");
 const fs = require("fs");
+const inquirer = require("inquirer");
+
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
@@ -75,21 +76,21 @@ const askQuestions = () => {
   ]);
 };
 
-askQuestions().then((data) => {
-  fs.writeFile("./README.md", data, (err) => {
+askQuestions().then((response) => {
+  console.log(response);
+  fs.writeFile("./README.md", generateMarkdown(response), (err) => {
     if (err) {
       console.log(err);
       return;
     }
-    console.log("Readme created!");
-    return generateMarkdown(data);
   });
+  console.log("Readme created!");
 });
 
 // function to initialize program
-function init() {}
+// function init() {}
 
 // function call to initialize program
-init();
+// init();
 
-console.log("everthing is ok");
+// console.log("everthing is ok");
