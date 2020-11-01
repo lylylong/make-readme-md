@@ -46,8 +46,8 @@ const askQuestions = () => {
       choices: [
         "MIT",
         "Apache License 2.0",
-        "GNU GPLv3",
-        "ISC License",
+        "GPL 3.0",
+        "BSD 3",
         "None of above",
       ],
     },
