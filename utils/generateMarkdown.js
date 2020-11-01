@@ -1,22 +1,22 @@
+function badges(license) {
+  if (license === "MIT") {
+    return `[![NPM](https://img.shields.io/npm/l/express)]`;
+  } else if (license === "Apache License 2.0") {
+    return `[![Hex.pm](https://img.shields.io/hexpm/l/plug)]`;
+  } else if (license === "GNU GPLv3") {
+    return `[![CRAN/METACRAN](https://img.shields.io/cran/l/devtools)]`;
+  } else if (license === "BSD 3") {
+    return `[![PyPI - License](https://img.shields.io/pypi/l/Django)]`;
+  } else {
+    return ``;
+  }
+}
 // function to generate markdown for README
 function generateMarkdown(response) {
-  return `# ${response.title}`;
+  return `# ${response.title}
 
-  function badges() {
-    if (response.license === "MIT") {
-      return `[![NPM](https://img.shields.io/npm/l/express)]`;
-    } else if (response.license === "Apache License 2.0") {
-      return `[![Hex.pm](https://img.shields.io/hexpm/l/plug)]`;
-    } else if (response.license === "GNU GPLv3") {
-      return `[![CRAN/METACRAN](https://img.shields.io/cran/l/devtools)]`;
-    } else if (response.license === "BSD 3") {
-      return `[![PyPI - License](https://img.shields.io/pypi/l/Django)]`;
-    } else {
-      return ``;
-    }
-  }
+  ${badges(response.license)}
 
-  `${badges()}
   ## Description
   ${response.description}
 
