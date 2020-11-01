@@ -1,6 +1,6 @@
-# make readme
+# MAKE README.MD
 
-  ![PyPI - License](https://img.shields.io/pypi/l/Django)
+  
 
   ## Description
   later
@@ -15,7 +15,7 @@
   * [Contact](#contact)
 
   ## License
-  This project is licensed under: BSD 3
+  No license used for this project
 
   ## Installation
   To install the dependencies, run this command:
@@ -23,21 +23,21 @@
 
   ## Test
   To run tests, run this command:
-  undefined
+  npm test
 
   ## Screenshot
   The screenshot demonstrates the user experience:
-  ddd
+  later
 
   ## Usage
-  sss
+  later
 
   ## Contributor
-  aaa
+  lylylong & Xandromus
 
   ## Contact
   View my on GitHub page:
   https://github.com/lylylong
 
   If you have any questions, please send me emails:
-  lll
+  lylylong@gmail.com

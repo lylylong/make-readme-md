@@ -43,7 +43,7 @@ const askQuestions = () => {
       type: "list",
       name: "license",
       message: "please select the license that your project has:",
-      choices: ["MIT", "Apache License 2.0", "GPL 3.0", "BSD 3"],
+      choices: ["MIT", "Apache License 2.0", "GPL 3.0", "BSD 3", "No license"],
     },
     {
       type: "input",

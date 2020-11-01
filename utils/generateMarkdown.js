@@ -12,10 +12,10 @@ function badges(license) {
   }
 }
 function licenseDiv(license) {
-  if (!license) {
+  if (license === "No license") {
     return `No license used for this project`;
   } else {
-    return `This project is licensed under:`;
+    return `This project is licensed under: ${license}`;
   }
 }
 
@@ -38,7 +38,7 @@ function generateMarkdown(response) {
   * [Contact](#contact)
 
   ## License
-  ${licenseDiv(response.license)} ${response.license}
+  ${licenseDiv(response.license)}
 
   ## Installation
   To install the dependencies, run this command:
@@ -46,7 +46,7 @@ function generateMarkdown(response) {
 
   ## Test
   To run tests, run this command:
-  ${response.tests}
+  ${response.test}
 
   ## Screenshot
   The screenshot demonstrates the user experience:
