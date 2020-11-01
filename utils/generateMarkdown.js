@@ -9,7 +9,10 @@ function generateMarkdown(response) {
   * [License](#license)
   * [Installation](#installation)
   * [Tests](#tests)
+  * [Screenshot](#screenshot)
+  * [Usage](#usage)
   * [Contributor](#contributor)
+  * [Contact Me](#github)
 
   ## License
   ${response.license}
@@ -22,6 +25,13 @@ function generateMarkdown(response) {
 
   ## Contributor
   ${response.contributor}
+
+  ## Contact Me
+  View my on GitHub page:
+  https://github.com/${response.github}
+
+  Send me emails:
+  ${response.email}
 `;
 }
 

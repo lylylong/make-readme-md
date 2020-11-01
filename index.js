@@ -65,6 +65,11 @@ const askQuestions = () => {
     },
     {
       type: "input",
+      name: "screenshot",
+      message: "Please provide your screenshot link:",
+    },
+    {
+      type: "input",
       name: "usage",
       message: "how to use this project's repo?",
     },
