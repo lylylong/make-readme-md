@@ -1,6 +1,6 @@
-# Make Readme.md
+# make readme
 
-  [![NPM](https://img.shields.io/npm/l/express)]
+  ![PyPI - License](https://img.shields.io/pypi/l/Django)
 
   ## Description
   later
@@ -15,27 +15,29 @@
   * [Contact](#contact)
 
   ## License
-  MIT
+  This project is licensed under: BSD 3
 
   ## Installation
+  To install the dependencies, run this command:
   npm i
 
   ## Test
+  To run tests, run this command:
   undefined
 
   ## Screenshot
   The screenshot demonstrates the user experience:
-  later
+  ddd
 
   ## Usage
-  later
+  sss
 
   ## Contributor
-  lylylong
+  aaa
 
   ## Contact
   View my on GitHub page:
   https://github.com/lylylong
 
   If you have any questions, please send me emails:
-  lylylong@gmail.com
+  lll

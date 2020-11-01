@@ -1,16 +1,24 @@
 function badges(license) {
   if (license === "MIT") {
-    return `[![NPM](https://img.shields.io/npm/l/express)]`;
+    return `![NPM](https://img.shields.io/npm/l/express)`;
   } else if (license === "Apache License 2.0") {
-    return `[![Hex.pm](https://img.shields.io/hexpm/l/plug)]`;
+    return `![Hex.pm](https://img.shields.io/hexpm/l/plug)`;
   } else if (license === "GNU GPLv3") {
-    return `[![CRAN/METACRAN](https://img.shields.io/cran/l/devtools)]`;
+    return `![CRAN/METACRAN](https://img.shields.io/cran/l/devtools)`;
   } else if (license === "BSD 3") {
-    return `[![PyPI - License](https://img.shields.io/pypi/l/Django)]`;
+    return `![PyPI - License](https://img.shields.io/pypi/l/Django)`;
   } else {
     return ``;
   }
 }
+function licenseDiv(license) {
+  if (!license) {
+    return `No license used for this project`;
+  } else {
+    return `This project is licensed under:`;
+  }
+}
+
 // function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}
@@ -30,12 +38,14 @@ function generateMarkdown(response) {
   * [Contact](#contact)
 
   ## License
-  ${response.license}
+  ${licenseDiv(response.license)} ${response.license}
 
   ## Installation
+  To install the dependencies, run this command:
   ${response.installation}
 
   ## Test
+  To run tests, run this command:
   ${response.tests}
 
   ## Screenshot
