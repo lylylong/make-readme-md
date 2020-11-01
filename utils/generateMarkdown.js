@@ -8,11 +8,11 @@ function generateMarkdown(response) {
   ## Table of Contents
   * [License](#license)
   * [Installation](#installation)
-  * [Tests](#tests)
+  * [Test](#test)
   * [Screenshot](#screenshot)
   * [Usage](#usage)
   * [Contributor](#contributor)
-  * [Contact Me](#github)
+  * [Contact](#contact)
 
   ## License
   ${response.license}
@@ -20,13 +20,20 @@ function generateMarkdown(response) {
   ## Installation
   ${response.installation}
 
-  ## Tests
+  ## Test
   ${response.tests}
+
+  ## Screenshot
+  The screenshot demonstrates the user experience:
+  ${response.screenshot}
+
+  ## Usage
+  ${response.usage}
 
   ## Contributor
   ${response.contributor}
 
-  ## Contact Me
+  ## Contact
   View my on GitHub page:
   https://github.com/${response.github}
 

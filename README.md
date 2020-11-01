@@ -1,16 +1,16 @@
 # Make Readme.md
 
   ## Description
-  placeholder......
+  xxx xxx xxxxx
 
   ## Table of Contents
   * [License](#license)
   * [Installation](#installation)
-  * [Tests](#tests)
+  * [Test](#test)
   * [Screenshot](#screenshot)
   * [Usage](#usage)
   * [Contributor](#contributor)
-  * [Contact Me](#github)
+  * [Contact](#contact)
 
   ## License
   MIT
@@ -18,13 +18,20 @@
   ## Installation
   npm i
 
-  ## Tests
+  ## Test
   undefined
 
-  ## Contributor
-  lylylong and origin code
+  ## Screenshot
+  The screenshot demonstrates the user experience:
+  later
 
-  ## Contact Me
+  ## Usage
+  git clone and comand line
+
+  ## Contributor
+  lylylong & xxx
+
+  ## Contact
   View my on GitHub page:
   https://github.com/lylylong
 
