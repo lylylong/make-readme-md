@@ -26,8 +26,8 @@
   npm test
 
   ## Screenshot
-  The screenshot demonstrates the user experience:
-  ![Final Gif](https://user-images.githubusercontent.com/70302749/97817856-fc4ecb00-1c6c-11eb-9279-880c4fe68011.gif)
+  The following GIF demonstrates the user experience:
+  ![Final Gif](https://user-images.githubusercontent.com/70302749/97822821-0c72a480-1c85-11eb-9586-f0f77d598f32.gif)
 
   ## Usage
   Download this repo, or copy this repo link, make changes that suit your needs.

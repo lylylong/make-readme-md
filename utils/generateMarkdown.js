@@ -49,7 +49,7 @@ function generateMarkdown(response) {
   ${response.test}
 
   ## Screenshot
-  The screenshot demonstrates the user experience:
+  The following GIF demonstrates the user experience:
   ${response.screenshot}
 
   ## Usage
