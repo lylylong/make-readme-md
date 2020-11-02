@@ -1,8 +1,9 @@
+// initial setup
 const fs = require("fs");
 const inquirer = require("inquirer");
-
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
+// prompt questions for user to answer
 const askQuestions = () => {
   return inquirer.prompt([
     {
@@ -69,6 +70,7 @@ const askQuestions = () => {
   ]);
 };
 
+// generate the readme file
 askQuestions().then((response) => {
   console.log(response);
   fs.writeFile("./README.md", generateMarkdown(response), (err) => {

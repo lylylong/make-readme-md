@@ -1,3 +1,4 @@
+// the badge function -- show badge for the project
 function badges(license) {
   if (license === "MIT") {
     return `![NPM](https://img.shields.io/npm/l/express)`;
@@ -11,6 +12,8 @@ function badges(license) {
     return ``;
   }
 }
+
+// design the section for license
 function licenseDiv(license) {
   if (license === "No license") {
     return `No license used for this project`;
@@ -67,4 +70,5 @@ function generateMarkdown(response) {
 `;
 }
 
+// export the file generation function
 module.exports = generateMarkdown;
